@@ -45,6 +45,7 @@ install:
   - which firefox
   - java -version
   - firefox --version
+  - node --version
   # lint python
   - pep8 --ignore=E402 webcompat/ tests/ config/secrets.py.example
   - python run.py -t &

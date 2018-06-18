@@ -64,10 +64,3 @@ intern.registerPlugin("checkServer", function() {
     request.end();
   });
 });
-
-// Super cool code.
-intern.on("beforeRun", () => {
-  return new Promise(function(resolve) {
-    setTimeout(() => resolve(), 5000);
-  });
-});
